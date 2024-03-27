@@ -1,0 +1,72 @@
+/** Reset de CSS */
+* {
+  text-decoration-line: none;
+  text-decoration: none;
+  font-style: none;
+  list-style: none;
+}
+
+/**  Le añado un color blanco a todos los textos */
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+ul,
+ol,
+footer {
+  color: white;
+}
+
+body {
+  background: linear-gradient(rgb(26, 26, 26), rgb(46, 33, 33));
+}
+/* Background en tonalidad grisacea para el NavBar */
+.sub-color {
+  background-color: rgba(0, 0, 0, 0.208);
+}
+
+/* ------------------------------- */
+
+header {
+  border: solid black;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+hr {
+  color: white;
+}
+
+.every-poster {
+  height: 15rem;
+  width: 10rem;
+}
+
+.every-title {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.every-thing {
+  font-size: 0.8rem;
+}
+
+.every-container {
+  width: 300px;
+  background: linear-gradient(rgb(0 0 0 / 0.7), rgb(67 67 67 / 0.8));
+}
+
+.every-genre {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.background-div {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(34, 31, 31, 0.8));
+}

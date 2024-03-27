@@ -1,0 +1,132 @@
+a {
+  text-decoration: none;
+  font-style: none;
+  text-decoration-color: none;
+  color: white;
+}
+
+/* Reset CSS */
+
+/* Box sizing border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+figure,
+fieldset,
+legend,
+textarea,
+button,
+input,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove border on images */
+img {
+  border-style: none;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Remove default form styles */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* Remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove spacing around table */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+/* Remove default text styles */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Remove text decoration from links */
+a {
+  text-decoration: none;
+}
+
+/* Remove default focus outline */
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* Remove default styling for media elements */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/* Remove default styling for interactive elements */
+details,
+menu {
+  display: block;
+}
+
+/* Remove default styling for embedded content */
+embed,
+iframe,
+object,
+embed {
+  display: block;
+  vertical-align: middle;
+}
+
+/* Remove default styling for SVG */
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}

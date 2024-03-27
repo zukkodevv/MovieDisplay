@@ -1,0 +1,44 @@
+.backgrounded {
+  background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(../imgs/avengers-infinity-war-2018-poster-4k-rq.jpg);
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  animation: bgChange 40s infinite;
+  animation-delay: -3s; /* Aplicar un delay negativo para compensar el desfase */
+}
+
+@keyframes bgChange {
+  0%,
+  25% {
+    background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+      url(../imgs/avengers-infinity-war-2018-poster-4k-rq.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  25%,
+  50% {
+    background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+      url(../imgs/lordOfRingFellow.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  50%,
+  75% {
+    background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+      url(../imgs/starWarsNH.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  75%,
+  100% {
+    background: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+      url(../imgs/GoTG-Vol.2-Recenzja-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+}
